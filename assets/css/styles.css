@@ -1,0 +1,36 @@
+/*layouts*/
+img {
+    padding: 15px;
+}
+section {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px auto;
+    width: 80%;
+}
+
+#display .col {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+#float {
+    overflow: auto;
+}
+#float img {
+    float: left;
+}
+#float small {
+    display: block;
+    clear: left;
+}
+
+#flex-box .row {
+    display: flex;
+}
+
+#columns {
+    /*shortcut column-width column-count*/
+    columns: 100px 3;
+}
